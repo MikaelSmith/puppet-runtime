@@ -1,7 +1,7 @@
 component "boost" do |pkg, settings, platform|
   # Source-Related Metadata
-  pkg.version "1.69.0"
-  pkg.md5sum "b50944c0c13f81ce2c006802a1186f5a"
+  pkg.version "1.73.0"
+  pkg.md5sum "4036cd27ef7548b8d29c30ea10956196"
   # Apparently boost doesn't use dots to version they use underscores....arg
   pkg.url "http://downloads.sourceforge.net/project/boost/boost/#{pkg.get_version}/boost_#{pkg.get_version.gsub('.','_')}.tar.gz"
   pkg.mirror "#{settings[:buildsources_url]}/boost_#{pkg.get_version.gsub('.','_')}.tar.gz"
